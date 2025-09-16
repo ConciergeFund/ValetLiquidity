@@ -66,3 +66,23 @@ section {
 .no-scrollbar::-webkit-scrollbar {
     display: none;
 }
+
+@media (min-width: 768px) {
+  .animated-gradient-bp {
+    background-image: linear-gradient(to right, #000000 0%, #6D61F1 50%, #000000 100%);
+    background-size: 200% 100%;
+    transition: background-position 0.4s ease-in-out;
+  }
+  .animated-gradient-bp:hover {
+    background-position: 100% 0;
+  }
+
+  .animated-gradient-pb {
+    background-image: linear-gradient(to right, #6D61F1 0%, #000000 50%, #6D61F1 100%);
+    background-size: 200% 100%;
+    transition: background-position 0.4s ease-in-out;
+  }
+  .animated-gradient-pb:hover {
+    background-position: 100% 0;
+  }
+}

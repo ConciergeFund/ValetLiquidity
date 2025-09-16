@@ -331,19 +331,19 @@ function App() {
               </div>
             </div>
             <div className="grid grid-rows-3 gap-4 md:gap-8 max-w-4xl">
-              <div className="p-8 md:p-12 bg-gradient-to-r from-[#000000] to-[#6D61F1]">
+              <div className="p-8 md:p-12 bg-gradient-to-r from-[#000000] to-[#6D61F1] animated-gradient-bp">
                 <h3 className="font-aeonik-regular text-base md:text-xl text-white mb-2">16-Hour Chart Support (Human + Bot Hybrid)</h3>
                 <p className="text-xs md:text-sm text-white font-aeonik-light">
                   Coordinated trading desk and algorithmic support operating 16 hours a day to maintain price stability, protect liquidity, and react to market dynamics in real time. This includes an exclusive strategy developed by a professional trader, executed by a hybrid system of algorithms and human operators. The strategy is closely aligned with the project's marketing approach and long-term objectives.
                 </p>
               </div>
-              <div className="p-8 md:p-12 bg-gradient-to-r from-[#6D61F1] to-[#000000]">
+              <div className="p-8 md:p-12 bg-gradient-to-r from-[#6D61F1] to-[#000000] animated-gradient-pb">
                 <h3 className="font-aeonik-regular text-base md:text-xl text-white mb-2">24/7 Full Coverage Market Making</h3>
                 <p className="text-xs md:text-sm text-white font-aeonik-light">
                   Round-the-clock support via seamless rotation between professional traders and AI-driven bots. Built around a full-time execution strategy designed to maintain levels, trade within defined ranges, and stimulate organic market growth — all in alignment with the project's narrative and positioning.
                 </p>
               </div>
-              <div className="p-8 md:p-12 bg-gradient-to-r from-[#000000] to-[#6D61F1]">
+              <div className="p-8 md:p-12 bg-gradient-to-r from-[#000000] to-[#6D61F1] animated-gradient-bp">
                 <h3 className="font-aeonik-regular text-base md:text-xl text-white mb-2">Soft Supply Liquidation</h3>
                 <p className="text-xs md:text-sm text-white font-aeonik-light">
                   Advanced, proprietary liquidation methods designed to offload token supply without creating visible market impact or triggering red candles on DEX charts.
@@ -355,37 +355,37 @@ function App() {
 
         <section ref={el => (sectionRefs.current[6] = el)} className={`w-full min-h-screen md:w-screen md:h-screen md:flex-shrink-0 flex flex-col justify-start md:justify-center p-8 md:p-24 md:transition-opacity md:duration-700 ${activeSection === 6 ? 'opacity-100' : 'opacity-100 md:opacity-20'}`}>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-0 mb-4 md:mb-8 order-3 md:order-1">
-            <div className="p-6 md:p-12 bg-gradient-to-r from-black to-[#6D61F1] md:bg-gradient-to-r md:from-[#6D61F1] md:to-[#000000]">
+            <div className="p-6 md:p-12 bg-gradient-to-r from-black to-[#6D61F1] animated-gradient-pb">
               <h3 className="font-aeonik-regular text-lg md:text-xl text-white mb-2">Solana-Based Launch Structuring</h3>
               <p className="text-sm md:text-base text-white font-aeonik-light">
                 We design and execute advanced pre-launch strategies tailored to the Solana ecosystem — including bundling before bonding curves, wallet orchestration, and narrative-aligned execution to ensure strong entry momentum in hyper-fast environments.
               </p>
             </div>
-            <div className="p-6 md:p-12 bg-gradient-to-r from-[#6D61F1] to-black md:bg-gradient-to-r md:from-[#6D61F1] md:to-[#000000]">
+            <div className="p-6 md:p-12 bg-gradient-to-r from-[#6D61F1] to-black animated-gradient-pb">
               <h3 className="font-aeonik-regular text-lg md:text-xl text-white mb-2">Ethereum Liquidity Setup</h3>
               <p className="text-sm md:text-base text-white font-aeonik-light">
                 We apply structured accumulation and wallet-based distribution strategies optimized for Ethereum's gas and visibility constraints — including pre-curve positioning, timing of entries, and wallet setup to balance stealth and credibility.
               </p>
             </div>
-            <div className="p-6 md:p-12 bg-gradient-to-r from-black to-[#6D61F1] md:bg-gradient-to-r md:from-[#6D61F1] md:to-[#000000]">
+            <div className="p-6 md:p-12 bg-gradient-to-r from-black to-[#6D61F1] animated-gradient-pb">
               <h3 className="font-aeonik-regular text-lg md:text-xl text-white mb-2">CTO via Clean Wallet Rotation</h3>
               <p className="text-sm md:text-base text-white font-aeonik-light">
                 Coordinated Token Offering executed as a bundled supply sale from one wallet and simultaneous purchases from several newly created clean wallets. This prevents wallet labeling and maintains a decentralized on-chain appearance.
               </p>
             </div>
-            <div className="p-6 md:p-12 bg-gradient-to-r from-[#6D61F1] to-black md:bg-gradient-to-r md:from-[#000000] md:to-[#6D61F1]">
+            <div className="p-6 md:p-12 bg-gradient-to-r from-[#6D61F1] to-black animated-gradient-bp">
               <h3 className="font-aeonik-regular text-lg md:text-xl text-white mb-2">Solana Supply Consolidation</h3>
               <p className="text-sm md:text-base text-white font-aeonik-light">
                 Solana-native accumulation strategies that absorb circulating supply through decentralized purchases and staged entry. Designed to shake out early liquidity participants and establish a credible holder base via wallet diversity and movement psychology.
               </p>
             </div>
-            <div className="p-6 md:p-12 bg-gradient-to-r from-black to-[#6D61F1] md:bg-gradient-to-r md:from-[#000000] md:to-[#6D61F1]">
+            <div className="p-6 md:p-12 bg-gradient-to-r from-black to-[#6D61F1] animated-gradient-bp">
               <h3 className="font-aeonik-regular text-lg md:text-xl text-white mb-2">Ethereum Supply Consolidation</h3>
               <p className="text-sm md:text-base text-white font-aeonik-light">
                 Execution across DEXs and wallets to naturally absorb supply over time on Ethereum. Uses clean transaction flows and behavioral triggers to reset market expectations, decentralize supply, and prime for long-term holding patterns.
               </p>
             </div>
-            <div className="p-6 md:p-12 bg-gradient-to-r from-[#6D61F1] to-black md:bg-gradient-to-r md:from-[#000000] md:to-[#6D61F1]">
+            <div className="p-6 md:p-12 bg-gradient-to-r from-[#6D61F1] to-black animated-gradient-bp">
               <h3 className="font-aeonik-regular text-lg md:text-xl text-white mb-2">Insider Activity Masking</h3>
               <p className="text-sm md:text-base text-white font-aeonik-light">
                 We hide wallets from tagging systems and Bubble Maps, keeping your team's presence invisible and maintaining a clean, trustable on-chain narrative.
@@ -417,25 +417,25 @@ function App() {
 
           <div className="w-full md:w-11/12 mx-auto mt-12 bg-black p-4">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              <div className="p-8 bg-gradient-to-r from-black to-[#6D61F1] md:bg-gradient-to-r md:from-[#6D61F1] md:to-[#000000]">
+              <div className="p-8 bg-gradient-to-r from-black to-[#6D61F1] animated-gradient-pb">
                 <h3 className="font-aeonik-bold text-xl text-white mb-2">Smart Contract Development</h3>
                 <p className="font-aeonik-light text-sm text-gray-300">
                   Design and deployment of secure, gas-efficient smart contracts tailored to your token and ecosystem mechanics.
                 </p>
               </div>
-              <div className="p-8 bg-gradient-to-r from-[#6D61F1] to-black md:bg-gradient-to-r md:from-[#6D61F1] md:to-[#000000]">
+              <div className="p-8 bg-gradient-to-r from-[#6D61F1] to-black animated-gradient-pb">
                 <h3 className="font-aeonik-bold text-xl text-white mb-2">Tokenomics Design & Advisory</h3>
                 <p className="font-aeonik-light text-sm text-gray-300">
                   Consultation on sustainable and narrative-driven tokenomics, aligning both protocol incentives and investor expectations.
                 </p>
               </div>
-              <div className="p-8 bg-gradient-to-r from-black to-[#6D61F1] md:bg-gradient-to-r md:from-[#6D61F1] md:to-[#000000]">
+              <div className="p-8 bg-gradient-to-r from-black to-[#6D61F1] animated-gradient-pb">
                 <h3 className="font-aeonik-bold text-xl text-white mb-2">Positioning, Social Media & Marketing Support</h3>
                 <p className="font-aeonik-light text-sm text-gray-300">
                   End-to-end guidance on how your project presents itself, including social tone, storytelling, and growth tactics.
                 </p>
               </div>
-              <div className="p-8 bg-gradient-to-r from-[#6D61F1] to-black md:bg-gradient-to-r md:from-[#6D61F1] md:to-[#000000]">
+              <div className="p-8 bg-gradient-to-r from-[#6D61F1] to-black animated-gradient-pb">
                 <h3 className="font-aeonik-bold text-xl text-white mb-2">KOL & Influencer Engagement</h3>
                 <p className="font-aeonik-light text-sm text-gray-300">
                   Connection to trusted Key Opinion Leaders across ecosystems to amplify awareness and bring early traction.
