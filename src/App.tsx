@@ -5,6 +5,7 @@ import { Menu, X } from 'lucide-react';
 
 function App() {
   const [isTalkToValetOpen, setIsTalkToValetOpen] = useState(false);
+  // Force new deployment trigger
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [activeSection, setActiveSection] = useState(0);
   const scrollContainerRef = useRef<HTMLDivElement>(null);
