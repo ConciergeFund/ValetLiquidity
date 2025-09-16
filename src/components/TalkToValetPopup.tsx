@@ -91,11 +91,7 @@ export function TalkToValetPopup({ isOpen, onClose }: TalkToValetPopupProps) {
   if (!isOpen) return null;
 
   return (
-<<<<<<< HEAD
-    <div className="fixed inset-0 bg-black text-white z-50 overflow-hidden">
-=======
     <div className="fixed inset-0 bg-[#E1DED7] z-50 overflow-hidden">
->>>>>>> 17f7ef69d1262517ee98cee7187a17bbce532328
       {/* Close button */}
       <button 
         onClick={onClose}
@@ -108,19 +104,10 @@ export function TalkToValetPopup({ isOpen, onClose }: TalkToValetPopupProps) {
       <div className="hidden md:flex h-screen p-16 flex-col">
         {/* Title */}
         <div className="text-left mb-16 lg:mb-24">
-<<<<<<< HEAD
-          <h2 className="text-5xl lg:text-7xl font-light text-white mb-2">
-            Get a free personal TGE
-          </h2>
-          <h2 className="text-5xl lg:text-7xl font-light text-white border-b-2 border-purple-400 pb-2 inline-block">
-            consultation
-          </h2>
-=======
           <h2 className="text-7xl lg:text-[12rem] text-[#1C2436] leading-tight">
             Talk <span className="font-[Ogg] italic">to</span> Valet
           </h2>
           <div className="h-[2px] bg-[#1C2436] mt-2 w-full"></div>
->>>>>>> 17f7ef69d1262517ee98cee7187a17bbce532328
         </div>
 
         {/* Form */}
@@ -131,11 +118,7 @@ export function TalkToValetPopup({ isOpen, onClose }: TalkToValetPopupProps) {
             value={formData.name}
             onChange={handleChange}
             placeholder="name"
-<<<<<<< HEAD
-            className="w-full bg-transparent text-white text-2xl lg:text-[2.5rem] font-light pb-4 focus:outline-none border-b border-white placeholder:text-gray-400"
-=======
             className="w-full bg-transparent text-[#1C2436] text-2xl lg:text-[2.5rem] font-light pb-4 focus:outline-none border-b border-[#1C2436] placeholder:text-[#1C2436]/60"
->>>>>>> 17f7ef69d1262517ee98cee7187a17bbce532328
             required
           />
           <input
@@ -144,11 +127,7 @@ export function TalkToValetPopup({ isOpen, onClose }: TalkToValetPopupProps) {
             value={formData.organization}
             onChange={handleChange}
             placeholder="organization"
-<<<<<<< HEAD
-            className="w-full bg-transparent text-white text-2xl lg:text-[2.5rem] font-light pb-4 focus:outline-none border-b border-white placeholder:text-gray-400"
-=======
             className="w-full bg-transparent text-[#1C2436] text-2xl lg:text-[2.5rem] font-light pb-4 focus:outline-none border-b border-[#1C2436] placeholder:text-[#1C2436]/60"
->>>>>>> 17f7ef69d1262517ee98cee7187a17bbce532328
             required
           />
           <input
@@ -157,11 +136,7 @@ export function TalkToValetPopup({ isOpen, onClose }: TalkToValetPopupProps) {
             value={formData.telegram}
             onChange={handleChange}
             placeholder="telegram username"
-<<<<<<< HEAD
-            className="w-full bg-transparent text-white text-2xl lg:text-[2.5rem] font-light pb-4 focus:outline-none border-b border-white placeholder:text-gray-400"
-=======
             className="w-full bg-transparent text-[#1C2436] text-2xl lg:text-[2.5rem] font-light pb-4 focus:outline-none border-b border-[#1C2436] placeholder:text-[#1C2436]/60"
->>>>>>> 17f7ef69d1262517ee98cee7187a17bbce532328
             required
           />
           <input
@@ -170,11 +145,7 @@ export function TalkToValetPopup({ isOpen, onClose }: TalkToValetPopupProps) {
             value={formData.email}
             onChange={handleChange}
             placeholder="email (optional)"
-<<<<<<< HEAD
-            className="w-full bg-transparent text-white text-2xl lg:text-[2.5rem] font-light pb-4 focus:outline-none border-b border-white border-opacity-50 placeholder:text-gray-500"
-=======
             className="w-full bg-transparent text-[#1C2436] text-2xl lg:text-[2.5rem] font-light pb-4 focus:outline-none border-b border-[#1C2436] border-opacity-50 placeholder:text-[#1C2436]/40"
->>>>>>> 17f7ef69d1262517ee98cee7187a17bbce532328
           />
         </form>
 
@@ -183,15 +154,9 @@ export function TalkToValetPopup({ isOpen, onClose }: TalkToValetPopupProps) {
           type="submit"
           onClick={handleSubmit}
           disabled={isSubmitting}
-<<<<<<< HEAD
-          className="fixed bottom-8 right-16 text-purple-400 hover:opacity-90 transition-opacity disabled:opacity-50 bg-transparent border-none"
-        >
-          <span className="text-3xl lg:text-[4rem] font-sans font-bold">
-=======
           className="fixed bottom-0 right-0 bg-[#1C2436] text-[#E1DED7] px-12 lg:px-16 py-6 lg:py-8 hover:opacity-90 transition-opacity disabled:opacity-50"
         >
           <span className="text-3xl lg:text-[4rem] font-[Ogg] italic">
->>>>>>> 17f7ef69d1262517ee98cee7187a17bbce532328
             {isSubmitting ? 'Sending...' : 'Send'}
           </span>
         </button>
@@ -201,19 +166,10 @@ export function TalkToValetPopup({ isOpen, onClose }: TalkToValetPopupProps) {
       <div className="md:hidden h-screen p-8 flex flex-col">
         {/* Title */}
         <div className="mt-16 mb-12">
-<<<<<<< HEAD
-          <h2 className="text-4xl text-white font-['Aeonik_Pro'] font-light mb-2">
-            Get a free personal TGE
-          </h2>
-          <h2 className="text-4xl text-white font-['Aeonik_Pro'] font-light border-b-2 border-purple-400 pb-2 inline-block">
-            consultation
-          </h2>
-=======
           <h2 className="text-4xl text-[#1C2436] font-['Aeonik_Pro'] font-light">
             Talk <span className="font-[Ogg] italic">to</span> Valet
           </h2>
           <div className="h-[1px] bg-[#1C2436] mt-2"></div>
->>>>>>> 17f7ef69d1262517ee98cee7187a17bbce532328
         </div>
 
         {/* Form */}
@@ -224,11 +180,7 @@ export function TalkToValetPopup({ isOpen, onClose }: TalkToValetPopupProps) {
             value={formData.name}
             onChange={handleChange}
             placeholder="name"
-<<<<<<< HEAD
-            className="w-full bg-transparent text-white text-xl font-light pb-4 focus:outline-none border-b border-white placeholder:text-gray-400"
-=======
             className="w-full bg-transparent text-[#1C2436] text-xl font-light pb-4 focus:outline-none border-b border-[#1C2436] placeholder:text-[#1C2436]/60"
->>>>>>> 17f7ef69d1262517ee98cee7187a17bbce532328
             required
           />
           <input
@@ -237,11 +189,7 @@ export function TalkToValetPopup({ isOpen, onClose }: TalkToValetPopupProps) {
             value={formData.organization}
             onChange={handleChange}
             placeholder="organization"
-<<<<<<< HEAD
-            className="w-full bg-transparent text-white text-xl font-light pb-4 focus:outline-none border-b border-white placeholder:text-gray-400"
-=======
             className="w-full bg-transparent text-[#1C2436] text-xl font-light pb-4 focus:outline-none border-b border-[#1C2436] placeholder:text-[#1C2436]/60"
->>>>>>> 17f7ef69d1262517ee98cee7187a17bbce532328
             required
           />
           <input
@@ -250,11 +198,7 @@ export function TalkToValetPopup({ isOpen, onClose }: TalkToValetPopupProps) {
             value={formData.telegram}
             onChange={handleChange}
             placeholder="telegram username"
-<<<<<<< HEAD
-            className="w-full bg-transparent text-white text-xl font-light pb-4 focus:outline-none border-b border-white placeholder:text-gray-400"
-=======
             className="w-full bg-transparent text-[#1C2436] text-xl font-light pb-4 focus:outline-none border-b border-[#1C2436] placeholder:text-[#1C2436]/60"
->>>>>>> 17f7ef69d1262517ee98cee7187a17bbce532328
             required
           />
           <input
@@ -263,11 +207,7 @@ export function TalkToValetPopup({ isOpen, onClose }: TalkToValetPopupProps) {
             value={formData.email}
             onChange={handleChange}
             placeholder="email (optional)"
-<<<<<<< HEAD
-            className="w-full bg-transparent text-white text-xl font-light pb-4 focus:outline-none border-b border-white border-opacity-50 placeholder:text-gray-500"
-=======
             className="w-full bg-transparent text-[#1C2436] text-xl font-light pb-4 focus:outline-none border-b border-[#1C2436] border-opacity-50 placeholder:text-[#1C2436]/40"
->>>>>>> 17f7ef69d1262517ee98cee7187a17bbce532328
           />
         </form>
 
@@ -276,15 +216,9 @@ export function TalkToValetPopup({ isOpen, onClose }: TalkToValetPopupProps) {
           type="submit"
           onClick={handleSubmit}
           disabled={isSubmitting}
-<<<<<<< HEAD
-          className="fixed bottom-8 right-8 text-purple-400 hover:opacity-90 transition-opacity disabled:opacity-50 bg-transparent border-none"
-        >
-          <span className="text-2xl font-sans font-bold">
-=======
           className="fixed bottom-0 right-0 bg-[#1C2436] text-[#E1DED7] px-8 py-4 hover:opacity-90 transition-opacity disabled:opacity-50"
         >
           <span className="text-2xl font-[Ogg] italic">
->>>>>>> 17f7ef69d1262517ee98cee7187a17bbce532328
             {isSubmitting ? 'Sending...' : 'Send'}
           </span>
         </button>

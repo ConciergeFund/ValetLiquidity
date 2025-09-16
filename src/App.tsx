@@ -64,7 +64,7 @@ function App() {
           const sectionCenter = section.offsetLeft + section.clientWidth / 2;
           const distance = Math.abs(scrollCenter - sectionCenter);
 
-          if (distance < smallestDistance) { 
+          if (distance < smallestDistance) {
             smallestDistance = distance;
             closestSectionIndex = index;
           }
