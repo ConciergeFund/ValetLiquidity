@@ -1,0 +1,34 @@
+@font-face {
+  font-family: 'Aeonik Pro';
+  src: url('/fonts/AeonikProTRIAL-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+<<<<<<< HEAD
+  font-family: 'AeonikProBold';
+  src: url('/fonts/AeonikProTRIAL-Bold.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+=======
+>>>>>>> 17f7ef69d1262517ee98cee7187a17bbce532328
+  font-family: 'Ogg';
+  src: url('/fonts/Ogg-RegularItalic.otf') format('opentype');
+  font-style: italic;
+  font-weight: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Aeonik Pro Regular';
+  src: url('/fonts/AeonikProTRIAL-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+} 

@@ -1,0 +1,74 @@
+@import './styles/fonts.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+<<<<<<< HEAD
+.font-aeonik-bold {
+  font-family: 'AeonikProBold', sans-serif !important;
+}
+
+.title-letter-spacing {
+  letter-spacing: -0.01em;
+}
+
+.font-aeonik-light {
+  font-family: 'Aeonik Pro', sans-serif !important;
+  font-weight: 300 !important;
+}
+
+.x-icon {
+  background: linear-gradient(to bottom, #A8A1F7, #6D61F1);
+  -webkit-mask-image: url('/X.svg');
+  mask-image: url('/X.svg');
+  mask-size: contain;
+  mask-repeat: no-repeat;
+  mask-position: center;
+}
+
+.telegram-icon {
+  background: linear-gradient(to bottom, #A8A1F7, #6D61F1);
+  -webkit-mask-image: url('/telegram.svg');
+  mask-image: url('/telegram.svg');
+  mask-size: contain;
+  mask-repeat: no-repeat;
+  mask-position: center;
+}
+
+.v-logo {
+  background: linear-gradient(to bottom, #A8A1F7, #6D61F1);
+  -webkit-mask-image: url('/LogoNew.svg');
+  mask-image: url('/LogoNew.svg');
+  -webkit-mask-size: cover;
+  mask-size: cover;
+  -webkit-mask-position: left;
+  mask-position: left;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
+=======
+>>>>>>> 17f7ef69d1262517ee98cee7187a17bbce532328
+/* Add this to your global CSS */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  transition: background-color 0.7s ease;
+}
+
+section {
+  transition: background-color 0.7s ease, color 0.7s ease;
+}
+<<<<<<< HEAD
+
+.font-aeonik-regular {
+  font-family: 'Aeonik Pro Regular', sans-serif !important;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+=======
+>>>>>>> 17f7ef69d1262517ee98cee7187a17bbce532328
