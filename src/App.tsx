@@ -148,7 +148,7 @@ function App() {
       {/* --- Mobile Header --- */}
       <header className="md:hidden fixed top-0 left-0 right-0 z-40 bg-gradient-to-r from-black to-[#6D61F1] p-4 flex justify-end items-center">
         <button onClick={() => setIsMobileMenuOpen(true)}>
-          <img src="/LogoNew.svg" alt="Valet Logo" className="h-10" />
+          <span className="text-white font-sans font-bold text-4xl">VALET</span>
         </button>
       </header>
 
@@ -185,8 +185,8 @@ function App() {
 
       {/* --- Desktop Sidebar --- */}
       <div className="hidden md:flex w-[300px] bg-gradient-to-b from-[#6D61F1] to-black flex-shrink-0 flex-col p-8 fixed h-full">
-        <div>
-          <img src="/LogoNew.svg" alt="Valet Logo" className="h-32" />
+        <div className="h-32 flex items-center justify-center">
+          <span className="text-white font-sans font-bold text-7xl tracking-tighter">VALET</span>
         </div>
         <div className="mt-auto mb-16">
           <nav className="space-y-4 text-2xl font-light">
