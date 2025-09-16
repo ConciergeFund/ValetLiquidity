@@ -3,7 +3,6 @@
 @tailwind components;
 @tailwind utilities;
 
-<<<<<<< HEAD
 .font-aeonik-bold {
   font-family: 'AeonikProBold', sans-serif !important;
 }
@@ -47,8 +46,6 @@
   mask-repeat: no-repeat;
 }
 
-=======
->>>>>>> 17f7ef69d1262517ee98cee7187a17bbce532328
 /* Add this to your global CSS */
 html {
   scroll-behavior: smooth;
@@ -61,7 +58,6 @@ body {
 section {
   transition: background-color 0.7s ease, color 0.7s ease;
 }
-<<<<<<< HEAD
 
 .font-aeonik-regular {
   font-family: 'Aeonik Pro Regular', sans-serif !important;
@@ -70,5 +66,3 @@ section {
 .no-scrollbar::-webkit-scrollbar {
     display: none;
 }
-=======
->>>>>>> 17f7ef69d1262517ee98cee7187a17bbce532328
