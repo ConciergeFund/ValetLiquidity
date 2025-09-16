@@ -456,7 +456,7 @@ function App() {
           className={`w-full md:w-[25vw] md:h-screen md:flex-shrink-0 relative pt-8 px-8 pb-32 md:p-24`}
           style={socialsBackground}
         >
-          <div className="flex flex-col items-center justify-center">
+          <div className="flex flex-col items-center justify-center h-full">
             <h3 className="text-4xl md:text-5xl font-aeonik-light text-purple-300 mb-8">
               Our Socials
             </h3>
