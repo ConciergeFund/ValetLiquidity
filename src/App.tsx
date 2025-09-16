@@ -153,7 +153,7 @@ function App() {
       </header>
 
       {isMobileMenuOpen && (
-        <div className="md:hidden fixed inset-0 bg-black z-50 flex flex-col items-center justify-center space-y-8">
+        <div className="md:hidden fixed inset-0 bg-black/80 backdrop-blur-sm z-50 flex flex-col items-center justify-center space-y-8">
           <button
             onClick={() => setIsMobileMenuOpen(false)}
             className="absolute top-4 right-4 p-2"
